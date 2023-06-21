@@ -1,0 +1,28 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/ja-testimonial-block",
+	"version": "0.1.0",
+	"title": "Ja Testimonial Block",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example block scaffolded with Create Block tool.",
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"url" : {
+			"type": "string"
+		},
+		"name": {
+			"type": "string"
+		},
+		"quote": {
+			"type": "string"
+		}
+	},
+	"textdomain": "ja-testimonial-block",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}
