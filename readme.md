@@ -1,5 +1,5 @@
 
-# Social Media Links Block For Gutenberg
+# Testimonial Block For Gutenberg
 
 
 A testimonial block that allows users to add a quote, name, and image of someone who has given them a positive review
